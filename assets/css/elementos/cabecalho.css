@@ -66,3 +66,27 @@
 .cabecalho__downloads__link:hover{
   background-color: rgb(40, 176, 206, 0.1);
 }
+
+@media screen and (max-width: 767px) {
+  .cabecalho{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: var(--tamanho-margem) 0;    
+  }
+
+  .cabecalho__principal{
+    margin-bottom: calc(2 * (var(--tamanho-margem)));
+    width: 100%;
+  }
+
+  .cabecalho__downloads{
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+
+}

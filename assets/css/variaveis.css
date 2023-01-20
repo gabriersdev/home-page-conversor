@@ -18,7 +18,7 @@
 
   --cor-background-hover-links: #D3D3D3;
 
-  --tamanho-fonte-texto-normal: 1rem;
+  --tamanho-fonte-texto-normal: 1.1rem;
   --tamanho-fonte-h1: 3.5rem;
   --tamanho-fonte-h2: 2.5rem;
   --tamanho-fonte-h3: 2rem;
@@ -35,4 +35,19 @@
   --cor-de-conteudo-botao-copiar-erro: #DA3400;
   --cor-de-fundo-botao-copiar-hover: rgb(0, 0, 0, 0.3);
   --cor-de-conteudo-botao-copiar-hover: #000;
+}
+
+@media screen and (max-width: 767px) {
+  :root{
+    --tamanho-margem: 1.5rem;
+    --tamanho-fonte-h1: 2.5rem;
+    --tamanho-fonte-h2: 2rem;
+    --tamanho-fonte-h3: 2rem;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+  :root{
+    --tamanho-margem: 3rem;
+  }
 }
