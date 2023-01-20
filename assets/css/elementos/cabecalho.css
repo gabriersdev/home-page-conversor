@@ -7,6 +7,8 @@
 
 .cabecalho__principal{
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cabecalho__principal__titulo{
@@ -67,23 +69,32 @@
   background-color: rgb(40, 176, 206, 0.1);
 }
 
+@media screen and (max-width: 410px) {
+  .cabecalho__downloads__instrucao,
+  .cabecalho__downloads__instrucao-destaque{
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cabecalho{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: var(--tamanho-margem) 0;    
   }
 
   .cabecalho__principal{
-    margin-bottom: calc(2 * (var(--tamanho-margem)));
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
   }
 
   .cabecalho__downloads{
     align-items: flex-start;
     text-align: left;
     width: 100%;
+    margin-bottom: calc(3 * var(--tamanho-margem));   
   }
 }
 
