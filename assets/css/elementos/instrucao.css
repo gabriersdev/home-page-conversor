@@ -1,5 +1,5 @@
 .instrucao{
-margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .instrucao__grupo{
@@ -47,4 +47,15 @@ li.instrucao__lista__titulo{
 
 .instrucao__lista__item{
   margin-left: 1.25rem;
+}
+
+@media screen and (max-width: 767px) {
+  .instrucao__grupo__linha{
+    display: none;
+  }
+
+  .instrucao:first-child,
+  .instrucao__grupo:first-child{
+    margin-top: 0;
+  }
 }
