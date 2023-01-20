@@ -1,0 +1,39 @@
+:root{
+  --cor-de-fundo-secundaria: #FFF;
+  --cor-de-fundo: #F6F6F6;
+  --cor-de-fundo-formacao: #EAF2FD;
+  --cor-de-fundo-contato: #EAF2FD;
+
+  --cor-de-link: #000;
+
+  --cor-de-texto: #313131;
+  --cor-de-icone: #313131;
+
+  --cor-de-fundo-botao-1: transparent;
+  --cor-de-borda-botao-1: #28B0CE;
+  --cor-de-texto-botao-1: #28B0CE;
+
+  --cor-background-loader: #F5F5F5;
+  --cor-loader: #28B0CE;
+
+  --cor-background-hover-links: #D3D3D3;
+
+  --tamanho-fonte-texto-normal: 1rem;
+  --tamanho-fonte-h1: 3.5rem;
+  --tamanho-fonte-h2: 2.5rem;
+  --tamanho-fonte-h3: 2rem;
+
+  --tamanho-margem: 5rem;
+
+  --branco: #FFF;
+  --cinza-claro: #D3D3D3;
+  --verde-agua: #28B0CE;
+
+
+  --cor-de-fundo-botao-copiar: rgb(0, 0, 0, 0.2);
+  --cor-de-conteudo-botao-copiar: #313131;
+  --cor-de-conteudo-botao-copiar-sucesso: #30C12D;
+  --cor-de-conteudo-botao-copiar-erro: #DA3400;
+  --cor-de-fundo-botao-copiar-hover: rgb(0, 0, 0, 0.4);
+  --cor-de-conteudo-botao-copiar-hover: #000;
+}

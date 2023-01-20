@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"`>
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com https://cdn.jsdelivr.net/; img-src 'self'; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net/; script-src 'self';"> -->
+  
+  <meta name="keywords" content="Conversor, Moedas, Medidas, Temperatura">
+  <meta name="author" content="Gabriel Ribeiro">
+  <meta property="og:title" content="Conversor em Java">
+  <meta property="og:description" content="#">
+  <meta property="og:url" content="#">
+  
+  <link rel="shortcut icon" href="./assets/img/icone.svg" type="image/x-icon">
+  
+  <!-- Folha de estilo de CSS Linkado -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/a11y-light.min.css">
+  
+  <!-- Importação da Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  
+  <title>Conversor em Java</title>
+</head>
+<body>
+  
+  <div class="tudo">
+    <header class="cabecalho">
+      <div class="cabecalho__principal">
+        <h1 class="cabecalho__principal__titulo">Conversor</h1>
+        
+        <div class="cabecalho__principal__grupo">
+          <i class="bi bi-cash-coin cabecalho__principal__grupo__icone"></i>
+          <h2 class="cabecalho__principal__grupo__titulo">de moedas</h2>
+        </div>
+        
+        <div class="cabecalho__principal__grupo">
+          <i class="bi bi-rulers cabecalho__principal__grupo__icone"></i>
+          <h2 class="cabecalho__principal__grupo__titulo">de medidas</h2>
+        </div>
+        
+        <div class="cabecalho__principal__grupo">
+          <i class="bi bi-thermometer-half cabecalho__principal__grupo__icone"></i>
+          <h2 class="cabecalho__principal__grupo__titulo">e de temperatura</h2>
+        </div>
+      </div>
+
+      <div class="cabecalho__downloads">
+        <p class="cabecalho__downloads__instrucao">
+          Baixe agora mesmo e usufrua de todos os recursos:
+        </p>
+        
+        <a href="#" class="cabecalho__downloads__link">Baixar versão .jar</a>
+        
+        <p class="cabecalho__downloads__instrucao">
+          Siga as <a href="#instrucoes-execucao" class="cabecalho__downloads__instrucao-destaque">instruções de uso para executar</a>
+        </p>
+      </div>
+    </header>
+    
+    <main class="conteudo">
+      <section class="instrucao">
+        <div class="instrucao__grupo" id="instrucoes-execucao">
+          <h3 class="instrucao__grupo__titulo">
+            Para executar o arquivo 
+            <span class="instrucao__grupo__titulo-destaque">.jar</span>
+          </h3>
+          <span class="instrucao__grupo__linha"></span>
+        </div>
+        
+        <p class="instrucao__descricao">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam sequi, distinctio repellendus iure laborum accusantium et obcaecati, non animi possimus minima architecto earum, consequatur optio eveniet perferendis! Facilis, similique!
+        </p>
+        
+        <div class='codigos'>
+          <pre class="codigo"><code class="python" contentEditable="false" data-conteudo-codigo>
+            import unicodedata
+                        
+            x = input("Diga-me a estação que deseja fazer a compra: \n")
+                        
+            x = unicodedata.normalize('NFKD', x).encode('ascii', 'ignore').decode('utf8')
+                        
+            if x.lower() == "verao":
+              print("StreamShop,","R$89,99")    
+            elif x.lower() == "primavera":
+              print("Loajing,", "R$84,00")    
+            elif x.lower() == "outono":
+              print("Showpping,", "R$73,00")    
+            elif x.lower() == "inverno":
+              print("Loajing,", "R$139,00")    
+            else:
+              print("Valor inválido")
+              
+            </code><button class="codigo__btn-copiar" data-acao-copiar-codigo><i class="bi bi-clipboard"></i></button></pre>
+        </div>
+        
+        <p class="instrucao__descricao">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam sequi, distinctio repellendus iure laborum accusantium et obcaecati, non animi possimus minima architecto earum, consequatur optio eveniet perferendis! Facilis, similique!
+        </p>
+        
+        <ul class="instrucao__lista">
+          <li class="instrucao__lista__titulo">Lista</li>
+          <li class="instrucao__lista__item">Item da lista</li>
+          <li class="instrucao__lista__item">Item da lista</li>
+        </ul>
+      </section>
+      
+      <section class="instrucao">
+        <div class="instrucao__grupo">
+          <h3 class="instrucao__grupo__titulo">
+            <span class="instrucao__grupo__titulo-destaque">Conversões</span>
+            suportadas
+          </h3>
+          <span class="instrucao__grupo__linha"></span>
+        </div>
+        
+        <ul class="instrucao__lista">
+          <li class="instrucao__lista__titulo">Lista</li>
+          <li class="instrucao__lista__item">Item da lista</li>
+          <li class="instrucao__lista__item">Item da lista</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+  
+  <!-- Sessão de Footer/Rodapé-->
+  <footer class="footer">
+    <div class="footer__rodape">
+      <p class="destaque">Desenvolvido por Gabriel Ribeiro</p>
+      <a class="link-visivel" data-direito-autorais>Direitos Autorais</a>
+      <p><i class="bi bi-c-circle"></i>&nbsp;<span data-ano-atual>2022</span></p>
+    </div>
+  </footer>
+  
+  <dialog class="modal" data-modal>
+    <h3>Atribuição de Direitos Autorais</h3>
+    
+    <br><p>Para o desenvolvimento deste site foram usados recursos das seguintes bibliotecas e/ou serviços:</p>
+    
+    <ul>
+      <li>10015.io</li>
+      <li>Bootstrap Icons</li>
+    </ul>
+    
+    <button class="modal__botao" data-modal-fecha>Fechar</button>
+  </dialog>
+  
+  <div class="overlay-2">
+    <div class="lds-ring-2"><div></div><div></div><div></div><div></div></div>
+  </div>
+  
+  <noscript>
+    <div class="box-no-script">         
+      <div class="texto-pagina-centralizado-alt">
+        <h2 class="titulo-texto-pagina-centralizado">Este site não funciona com o 
+          <span class="destaque-pagina-centralizado">Javascript desabilitado</span></h2><br>
+          
+          <p class="label-texto-pagina-centralizado">Muitos dos recursos usados funcionam através do Javascript e sem ele a navegabilidade e o próprio funcionamento do site são comprometidos</p>
+          
+          <p class="label-texto-pagina-centralizado">Portanto, habilite o Javascript e navegue pelo Expresso Mobilidade</p><br>
+          <button data-recarrega-pagina class="btn btn-lg btn-principal btn-principal-ativado btn-sombra btn-principal-no-script" id="btn-redirecionar-inicio" name="btn-redirecionar-inicio">Recarregar</button>
+        </div>
+      </div>
+  </noscript>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/codigos.js"></script>
+</body>
+</html>

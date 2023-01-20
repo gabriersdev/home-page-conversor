@@ -1,0 +1,68 @@
+.cabecalho{
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cabecalho__principal{
+  width: 50%;
+}
+
+.cabecalho__principal__titulo{
+  font-size: var(--tamanho-fonte-h1);
+  margin-bottom: 2rem;
+}
+
+.cabecalho__principal__grupo{
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+
+  color: var(--verde-agua);
+}
+
+.cabecalho__principal__grupo__icone{
+  margin-right: 0.5rem;
+  font-size: var(--tamanho-fonte-h3);
+}
+
+.cabecalho__principal__grupo__titulo{
+  font-size: var(--tamanho-fonte-h2);
+  font-weight: 600;
+}
+
+.cabecalho__downloads{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 1.6rem;
+  text-align: right;
+}
+
+.cabecalho__downloads__instrucao,
+.cabecalho__downloads__instrucao-destaque{
+  width: 60%;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.cabecalho__downloads__instrucao-destaque{
+  text-decoration: underline;
+}
+
+.cabecalho__downloads__link{
+  margin: 1.5rem 0;
+  display: inline;
+  border: 1px solid var(--verde-agua);
+  color: var(--verde-agua);
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  transition: 0.3s;
+}
+
+.cabecalho__downloads__link:hover{
+  background-color: rgb(40, 176, 206, 0.1);
+}
