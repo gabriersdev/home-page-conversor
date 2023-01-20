@@ -29,11 +29,10 @@
   --cinza-claro: #D3D3D3;
   --verde-agua: #28B0CE;
 
-
   --cor-de-fundo-botao-copiar: rgb(0, 0, 0, 0.2);
-  --cor-de-conteudo-botao-copiar: #313131;
+  --cor-de-conteudo-botao-copiar: #808080;
   --cor-de-conteudo-botao-copiar-sucesso: #30C12D;
   --cor-de-conteudo-botao-copiar-erro: #DA3400;
-  --cor-de-fundo-botao-copiar-hover: rgb(0, 0, 0, 0.4);
+  --cor-de-fundo-botao-copiar-hover: rgb(0, 0, 0, 0.3);
   --cor-de-conteudo-botao-copiar-hover: #000;
 }

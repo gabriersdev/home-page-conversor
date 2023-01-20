@@ -32,6 +32,8 @@
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
+
+  transition: 0.3s;
 }
 
 .codigo__btn-copiar:hover{
