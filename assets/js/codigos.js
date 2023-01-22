@@ -39,6 +39,7 @@
   btnCopiaCodigo.forEach(botao => {
     botao.addEventListener('click', (evento) => {
       acionarCopiaCodigo(evento, botao);
-    })
-  })
+    });
+  });
+
 })();
