@@ -31,9 +31,26 @@
 
 .instrucao__descricao, 
 .instrucao__lista__titulo,
-.instrucao__lista__item{
+.instrucao__lista__item, 
+.instrucao__descricao__lista{
   font-size: var(--tamanho-fonte-texto-normal);
   line-height: 1.5;
+}
+
+.instrucao__descricao__titulo{
+  font-size: var(--tamanho-fonte-h4);
+  margin-bottom: 0.5rem;
+}
+
+.instrucao__descricao__lista li{
+  list-style-type: decimal !important;
+  margin: 1rem 0;
+  margin-left: -20px;
+  padding-left: 1rem;
+}
+
+.instrucao__descricao__lista b{
+  font-weight: 600;
 }
 
 .instrucao__lista li{

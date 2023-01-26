@@ -13,7 +13,7 @@
   background-color: var(--cor-de-fundo); 
 }
 
-.codigo code{
+code{
   border-radius: 5px;
   font-family: 'JetBrains Mono', monospace;
 }

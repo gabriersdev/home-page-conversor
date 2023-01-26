@@ -73,30 +73,59 @@
         </div>
         
         <p class="instrucao__descricao">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam sequi, distinctio repellendus iure laborum accusantium et obcaecati, non animi possimus minima architecto earum, consequatur optio eveniet perferendis! Facilis, similique!
-        </p>
-        
-        <div class='codigos'>
-          <pre class="codigo"><code class="python" contentEditable="false" data-conteudo-codigo>
-            import unicodedata
-                        
-            x = input("Diga-me a estação que deseja fazer a compra: \n")
-                        
-            x = unicodedata.normalize('NFKD', x).encode('ascii', 'ignore').decode('utf8')
-                        
-            if x.lower() == "verao":
-              print("StreamShop,","R$89,99")    
-            elif x.lower() == "primavera":
-              print("Loajing,", "R$84,00")    
-            elif x.lower() == "outono":
-              print("Showpping,", "R$73,00")    
-            elif x.lower() == "inverno":
-              print("Loajing,", "R$139,00")    
-            else:
-              print("Valor inválido")
+
+          Siga as instruções abaixo com atenção para abrir o arquivo <b>no Windows</b>:
+
+          <ol class="instrucao__descricao__lista">
+            <li>
+              Após fazer o download do arquivo executável .jar, <b> abra a pasta em que ele foi baixado no seu computador.</b> Geralmente esta pasta é a de Downloads.
+            </li>
+            
+            <li>
+              <b>Caso você não tenha o Java baixado na sua máquina</b> acesse <a href="" class="link-visivel">esse site (https://www.java.com/pt-BR/download/)</a> e faça o download do Java. <br> <b>Se você tiver certeza que tem o Java baixado,</b> pule para o passo 4.
+            </li>
+            
+            <li>
+              <b>Caso você não saiba se baixou ou não,</b> abra o CMD e digite: 
+
+              <div class="codigos">
+                <pre class="codigo"><code class="cmd" contentEditable="false" data-conteudo-codigo>
+                  java --version
+  
+                </code><button class="codigo__btn-copiar" data-acao-copiar-codigo><i class="bi bi-clipboard"></i></button></pre>
+              </div>
+
+              Caso apareça algo como o código abaixo significa que você tem o Java instalado:
+
+              <div class="codigos">
+                <pre class="codigo"><code class="cmd" contentEditable="false" data-conteudo-codigo>
+                  java 17.0.4.1 2022-08-18 LTS
+                  Java(TM) SE Runtime Environment (build 17.0.4.1+1-LTS-2)
+                  Java HotSpot(TM) 64-Bit Server VM (build 17.0.4.1+1-LTS-2, mixed mode, sharing)
+  
+                </code><button class="codigo__btn-copiar" data-acao-copiar-codigo><i class="bi bi-clipboard"></i></button></pre>
+              </div>
+            </li>
+
+            <li>Dentro da pasta, clique com o botão direito do mouse para aparecer o menu fluante do Explorador de Arquivos.</li>
+            <li>No menu clique na opção "Abrir no Terminal" e o Power Shell ou o CMD deverá ser aberto.</li>
+            
+            <li>
+              Dentro do Terminal, digite a instrução:
+            
+              <div class="codigos">
+                <pre class="codigo"><code class="cmd" contentEditable="false" data-conteudo-codigo>
+                  java -jar conversor.jar
+  
+                </code><button class="codigo__btn-copiar" data-acao-copiar-codigo><i class="bi bi-clipboard"></i></button></pre>
+              </div>
               
-            </code><button class="codigo__btn-copiar" data-acao-copiar-codigo><i class="bi bi-clipboard"></i></button></pre>
-        </div>
+              E o programa deverá ser aberto:
+
+              <img class="instrucao__descricao__lista__imagem" src="./assets/img/conversor.png" alt="">
+            </li>
+          </ol>
+        </p>
         
         <p class="instrucao__descricao">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsam sequi, distinctio repellendus iure laborum accusantium et obcaecati, non animi possimus minima architecto earum, consequatur optio eveniet perferendis! Facilis, similique!
