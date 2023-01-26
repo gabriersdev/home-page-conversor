@@ -53,6 +53,12 @@
   font-weight: 600;
 }
 
+.instrucao__descricao__lista__imagem{
+  display: block;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
 .instrucao__lista li{
   list-style-type: square;
 }
@@ -60,6 +66,10 @@
 li.instrucao__lista__titulo{
   padding: 0;
   list-style-type: none;
+}
+
+li.instrucao__lista__titulo::after{
+  content: ":";
 }
 
 .instrucao__lista__item{
