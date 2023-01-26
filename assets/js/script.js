@@ -31,11 +31,24 @@
       window.location.reload();
     })
   })
+  
+  const adicionarBotoesCopiaCodigo = () => {
     
+    const codes = document.querySelectorAll('[data-conteudo-codigo]');
+    codes.forEach(code => {
+      const pre = code.parentElement;
+      const botao = `<button class="codigo__btn-copiar" data-acao-copiar-codigo><i class="bi bi-clipboard"></i></button>`;
+
+      pre.innerHTML += botao;
+    })
+
+  }
+
   window.addEventListener("load", function () {
     const overlay2 = document.querySelector(".overlay-2");
     overlay2.style.display = "none";
 
+    adicionarBotoesCopiaCodigo();
     ajustarAnoAtual();
     controlarModal();
   })

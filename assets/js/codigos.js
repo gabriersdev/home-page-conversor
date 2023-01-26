@@ -35,11 +35,13 @@
     }, 2000)
   }
   
-  const btnCopiaCodigo = document.querySelectorAll('[data-acao-copiar-codigo]');
-  btnCopiaCodigo.forEach(botao => {
-    botao.addEventListener('click', (evento) => {
-      acionarCopiaCodigo(evento, botao);
+  window.addEventListener('load', function(){
+    const btnCopiaCodigo = document.querySelectorAll('[data-acao-copiar-codigo]');
+    btnCopiaCodigo.forEach(botao => {
+      botao.addEventListener('click', (evento) => {
+        acionarCopiaCodigo(evento, botao);
+      });
     });
-  });
+  })
 
 })();
