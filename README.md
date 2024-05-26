@@ -11,5 +11,5 @@ Este projeto permite ao usuário:
   <li>Usufruir de todas as conversões</li>
 </ul>
 
-Para conferir o repositório com o projeto do Conversor é pelo link: <a href='https://github.com/gabrieszin/Conversor-Java' target='blank'>https://github.com/gabrieszin/Conversor-Java</a>
+Para conferir o repositório com o projeto do Conversor é pelo link: <a href='https://github.com/gabriersdev/Conversor-Java' target='blank'>https://github.com/gabriersdev/Conversor-Java</a>
 <p>
